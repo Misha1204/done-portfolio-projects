@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+}
+
+body {
+  background-image: url("SNOW.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* HEADER */
+
+.header {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.header h1 {
+  padding: 20px;
+  text-align: center;
+
+  font-size: 2.5em;
+  font-weight: 400;
+}
+
+/* MAIN CONTENT */
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 45px;
+  margin-top: 30px;
+}
+
+.cont p {
+  margin-bottom: 15px;
+
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.cont span {
+  font-size: 20px;
+}
